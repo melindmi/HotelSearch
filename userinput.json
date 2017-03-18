@@ -1,0 +1,12 @@
+{
+	"location" : "OTP",
+	"radius" : null,
+	"lang": null,
+	"currency": "EUR",
+	"chain": null,
+	"max_rate": null,
+	"number_of_results": null,
+	"all_rooms": null, 
+	"show_sold_out": null,
+	"amenity": null
+}
