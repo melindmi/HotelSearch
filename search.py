@@ -19,10 +19,10 @@ class Search:
 		rsp = requests.get(url=self.baseUrl, params=parameters)
 		return rsp
 		
-	def getJsonResponse(self, parmeters):
+	def getJsonResponse(self, parameters):
 		"""return the JSON response of the GET request
 		"""
-		rsp = self.getResponse()
+		rsp = self.getResponse(parameters)
 		return rsp.json()
 		
 		
